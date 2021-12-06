@@ -17,6 +17,7 @@ OpenNebula 6.4 XXX is ...
 
 OpenNebula Core
 ================================================================================
+- Snaphots size are highly overestimated. Count snapshot size only as fraction of original disk size. :ref:`See settings in oned.conf <oned_conf_datastores>`.
 
 Sunstone
 ================================================================================
